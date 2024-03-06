@@ -1,0 +1,56 @@
+models:
+  Post:
+    title: string
+    slug: string
+    sub_title: string
+    body: longText
+    status: boolean
+    published_at: datetime
+    cover_photo_path: string
+    photo_alt_text: string
+    relationships:
+      hasMany: Categories, Comments, Tags
+      belongsTo: User
+      hasOne: SeoDetail
+
+  Category:
+    name: string
+    relationships:
+      hasMany: Posts
+
+  CategoryPost:
+    post_id: unsignedInteger
+    category_id: unsignedInteger
+
+  SeoDetail:
+    post_id: unsignedInteger
+    title: string
+    keywords: json
+    description: text
+    relationships:
+      belongsTo: Post
+
+  Comment:
+    user_id: unsignedInteger
+    post_id: unsignedInteger
+    comment: text
+    approved: boolean
+    relationships:
+      belongsTo: User, Post
+
+  NewsLetter:
+    email: string:100 unique
+
+  Tag:
+    title: string:50 unique
+    relationships:
+      hasMany: Posts
+
+  PostTag:
+    post_id: unsignedInteger
+    tag_id: unsignedInteger
+
+
+
+
+
