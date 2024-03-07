@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Post;
-use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Comment;
 use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Magan\FilamentBlog\Models\Comment;
+use Magan\FilamentBlog\Models\Post;
 
 class CommentFactory extends Factory
 {

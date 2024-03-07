@@ -2,12 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
-use App\Models\Comment;
-use App\Models\Post;
-use App\Models\SeoDetail;
-use App\Models\Tag;
 use Illuminate\Database\Seeder;
+use Magan\FilamentBlog\Models\Category;
+use Magan\FilamentBlog\Models\Comment;
+use Magan\FilamentBlog\Models\Post;
+use Magan\FilamentBlog\Models\SeoDetail;
+use Magan\FilamentBlog\Models\Tag;
 
 class PostSeeder extends Seeder
 {

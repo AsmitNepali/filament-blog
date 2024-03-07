@@ -2,9 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\Tag;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Magan\FilamentBlog\Models\Tag;
 
 class TagSeeder extends Seeder
 {

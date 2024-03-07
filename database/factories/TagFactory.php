@@ -3,8 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
-use App\Models\Tag;
+use Magan\FilamentBlog\Models\Tag;
 
 class TagFactory extends Factory
 {

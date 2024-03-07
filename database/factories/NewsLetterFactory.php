@@ -3,8 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
-use App\Models\NewsLetter;
+use Magan\FilamentBlog\Models\NewsLetter;
 
 class NewsLetterFactory extends Factory
 {

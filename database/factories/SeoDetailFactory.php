@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Post;
-use App\Models\SeoDetail;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Magan\FilamentBlog\Models\Post;
+use Magan\FilamentBlog\Models\SeoDetail;
 
 class SeoDetailFactory extends Factory
 {

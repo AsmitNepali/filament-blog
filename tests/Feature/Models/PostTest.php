@@ -1,9 +1,9 @@
 <?php
 
-use App\Models\Category;
-use App\Models\Post;
-use App\Models\SeoDetail;
-use App\Models\Tag;
+use Magan\FilamentBlog\Models\Category;
+use Magan\FilamentBlog\Models\Post;
+use Magan\FilamentBlog\Models\SeoDetail;
+use Magan\FilamentBlog\Models\Tag;
 
 it('has categories', function () {
     // Arrange
