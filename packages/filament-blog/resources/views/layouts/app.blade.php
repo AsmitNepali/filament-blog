@@ -16,26 +16,26 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
         body {
-            font-family: "Plus Jakarta Sans";
+            font-family: "Plus Jakarta Sans", serif;
             font-weight: 400;
             font-style: normal;
         }
     </style>
 </head>
-<body class="font-sans antialiased">
+<body class="font-sans antialiased" style="font-family:'Plus Jakarta Sans' ">
 <div class="min-h-screen bg-gray-100">
     <!-- Page Header -->
     <header class="py-5 mb-4 border-b border-slate-200">
         <div class="container mx-auto">
             <div class="flex justify-between gap-x-4">
                 <div class="flex items-center">
-                    <a href="#">
+                    <a href="{{ route('post.index') }}">
                         <span class="text-2xl">{{ config('app.name', 'Magan Blog') }} <strong>Blog</strong></span>
                     </a>
                 </div>
                 <div class="flex items-center">
                     <div class="flex gap-x-4">
-                        <a href="#" class="text-lg font-medium hover:text-blue-600">
+                        <a href="/" class="text-lg font-medium hover:text-blue-600">
                             <span>Home</span>
                         </a>
                         <a href="#" class="text-lg font-medium hover:text-blue-600">
